@@ -13,7 +13,8 @@
 
 # IOT1026-Assignment-2
 
-The output of the program has been verified to show that the implemented methods have worked as expected, as follows:Initial State: Locked
+The output of the program has been verified to show that the implemented methods have worked as expected, as follows:/
+Initial State:Locked
 The chest cannot be opened because it is locked.
 New State: Locked
 New State: Locked
