@@ -21,8 +21,8 @@ namespace Assignment
 
             // Test the constructor with parameters and ToString method
             TreasureChest customChest = new TreasureChest(TreasureChest.Material.RichMahogany,
-                                                         TreasureChest.LockType.Intermediate,
-                                                         TreasureChest.LootQuality.Purple);
+                                                          TreasureChest.LockType.Intermediate,
+                                                          TreasureChest.LootQuality.Purple);
             Console.WriteLine(customChest.ToString());
         }
     }
