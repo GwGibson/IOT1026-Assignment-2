@@ -1,4 +1,4 @@
-﻿namespace Assignment
+namespace Assignment
 {
     public class TreasureChest
     {
@@ -36,20 +36,57 @@
 
         public State Manipulate(Action action)
         {
-            if (action == Action.Open) {
-                Open();
+            switch (action)
+            {
+                case Action.Open:
+                    Open();
+                    break;
+                case Action.Close:
+                    Close();
+                    break;
+                case Action.Lock:
+                    Lock();
+                    break;
+                case Action.Unlock:
+                    Unlock();
+                    break;
+                default:
+                    Console.WriteLine("Invalid action");
+                    break;
             }
             return _state;
-        }
-
-        public void Unlock()
+        }public void Unlock()
         {
-            throw new NotImplementedException();
+            // We should check if the chest is Locked
+            if (_state == State.Locked)
+            {
+                _state = State.Closed;
+            }
+            else if (_state == State.Closed)
+            {
+                Console.WriteLine("The chest needs to be Locked!");
+            }
+            else
+            {
+                Console.WriteLine("The chest needs to be closed , then locked.");
+            }
         }
 
         public void Lock()
         {
-            throw new NotImplementedException();
+            // We should check if the chest is Closed
+            if (_state == State.Closed)
+            {
+                _state = State.Locked;
+            }
+            else if (_state == State.Locked)
+            {
+                Console.WriteLine("The chest is already Locked!");
+            }
+            else
+            {
+                Console.WriteLine("Close the Chest.");
+            }
         }
 
         public void Open()
@@ -71,7 +108,19 @@
 
         public void Close()
         {
-            throw new NotImplementedException();
+            // We should check if the chest is open
+            if (_state == State.Open)
+            {
+                _state = State.Closed;
+            }
+            else if (_state == State.Closed)
+            {
+                Console.WriteLine("The chest is already closed!");
+            }
+            else if (_state == State.Locked)
+            {
+                Console.WriteLine("The chest cannot be closed because it is  already locked.");
+            }
         }
 
         public override string ToString()
