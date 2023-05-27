@@ -10,7 +10,7 @@
 	<img title="MIT License" alt="license" src="https://img.shields.io/badge/license-MIT-informational?style=flat-square">		
     </a>
 </p>
-
+[![ci](https://github.com/Dabebe100/IOT1026-Assignment-2/actions/workflows/ci.yml/badge.svg)](https://github.com/Dabebe100/IOT1026-Assignment-2/actions/workflows/ci.yml)
 # IOT1026-Assignment-2
 
 Write a description of the project here and don't forget to update the badges.
