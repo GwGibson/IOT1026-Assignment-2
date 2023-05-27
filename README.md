@@ -13,8 +13,19 @@
 
 # IOT1026-Assignment-2
 
-Write a description of the project here and don't forget to update the badges.
-
+The output of the program has been verified to show that the implemented methods have worked as expected, as follows:Initial State: Locked
+The chest cannot be opened because it is locked.
+New State: Locked
+New State: Locked
+New State: Locked
+New State: Locked
+The chest cannot be opened because it is locked.
+New State: Locked
+A Locked chest with the following properties:
+Material: RichMahogany
+Lock Type: Intermediate
+Loot Quality: Purple
+        
 **Bonus:** Improve the state diagram in the instructions.md file to use treasure chests and make a pull request to receive a 1% bonus. If multiple students make a pull request, the request I incorporate into the assignment will receive a 2% bonus. Ensure your pull request does not incorporate any other changes.
 
 [Assignment Instructions](docs/instructions.md)  
