@@ -12,7 +12,7 @@
 </p>
 
 # IOT1026-Assignment-2
-Write a description of the project here and don't forget to update the badges.  
+The "Treasure Chest State Machine" project implements a class for managing a treasure chest with states and properties. It enables actions like opening, closing, locking, and unlocking the chest, while enforcing valid state transitions. This project provides a flexible solution for handling treasure chest states in various applications. 
 
 [Assignment Instructions](docs/instructions.md)  
 [How to start coding](docs/how-to-use.md)  
