@@ -55,7 +55,7 @@ It is not necessary to use the `Main` method for this assignment, as the focus i
 Submit a link to the GitHub repo containing your code.
 
 ## State Diagram
-![State Diagram](state-diagram.png)
+![State Diagram](Rebeccas-state-diagram.png)
 
 # Grading Rubric
 
