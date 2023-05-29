@@ -13,19 +13,7 @@
 
 # IOT1026-Assignment-2
 
-The output of the program has been verified to show that the implemented methods have worked as expected, as follows:/
-Initial State:Locked
-The chest cannot be opened because it is locked.
-New State: Locked
-New State: Locked
-New State: Locked
-New State: Locked
-The chest cannot be opened because it is locked.
-New State: Locked
-A Locked chest with the following properties:
-Material: RichMahogany
-Lock Type: Intermediate
-Loot Quality: Purple
+[![.NET Core Desktop](https://github.com/D-Elbadawi/IOT1026-Assignment-2/actions/workflows/dotnet2-desktop.yml/badge.svg?branch=main)](https://github.com/D-Elbadawi/IOT1026-Assignment-2/actions/workflows/dotnet2-desktop.yml)
         
 **Bonus:** Improve the state diagram in the instructions.md file to use treasure chests and make a pull request to receive a 1% bonus. If multiple students make a pull request, the request I incorporate into the assignment will receive a 2% bonus. Ensure your pull request does not incorporate any other changes.
 
