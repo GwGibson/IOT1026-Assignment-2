@@ -6,6 +6,7 @@ namespace Assignment
     {
         static void Main(string[] args)
         {
+
             // Create a treasure chest
             TreasureChest chest = new TreasureChest();
 
