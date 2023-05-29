@@ -8,7 +8,7 @@ namespace Assignment
         private readonly Material _material;
         private readonly LockType _lockType;
         private readonly LootQuality _lootQuality;
-
+        //
         // Default Constructor
         public TreasureChest()
         {
